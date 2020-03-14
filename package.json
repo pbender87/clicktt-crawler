@@ -1,6 +1,6 @@
 {
   "name": "clicktt-crawler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A DOM crawler to extract results from https://www.mytischtennis.de/clicktt/home/",
   "repository": "pbender87/clicktt-crawler",
   "author": "Philipp Bender <philipp_bender@gmx.com>",
