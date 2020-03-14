@@ -1,0 +1,44 @@
+{
+  "name": "clicktt-crawler",
+  "version": "0.1.0",
+  "description": "A DOM crawler to extract results from https://www.mytischtennis.de/clicktt/home/",
+  "repository": "pbender87/clicktt-crawler",
+  "author": "Philipp Bender <philipp_bender@gmx.com>",
+  "license": "MIT",
+  "keywords": [
+    "tischtennis",
+    "clicktt",
+    "crawler",
+    "cli"
+  ],
+  "files": [
+    "bin/*",
+    "lib/*",
+    "LICENSE",
+    "README.md"
+  ],
+  "main": "./lib/ClickTTCrawler.js",
+  "bin": {
+    "clicktt": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint lib bin test"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.2",
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-0",
+    "cheerio-tableparser": "^1.0.1",
+    "commander": "^4.1.1",
+    "jsonfile": "^5.0.0",
+    "lodash.zip": "^4.2.0",
+    "node-fetch": "^2.6.0"
+  },
+  "engines": {
+    "node": ">= 10"
+  }
+}
