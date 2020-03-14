@@ -113,7 +113,9 @@ const result = await crawler.getResults({
     time: '20:00',
     location: '1',
     home: 'TTC Rohrbach',
-    guest: 'TTC Insheim'
+    guest: 'TTC Insheim',
+    resultHome: 3,
+    resultGuest: 9
   }
 ]
 ```
