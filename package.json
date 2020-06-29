@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "A DOM crawler to extract results from https://www.mytischtennis.de/clicktt/home/",
   "repository": "pbender87/clicktt-crawler",
-  "author": "Philipp Bender <philipp_bender@gmx.com>",
+  "author": "Philipp Bender <philipp.bender.de@gmail.com>",
   "license": "MIT",
   "keywords": [
     "tischtennis",
